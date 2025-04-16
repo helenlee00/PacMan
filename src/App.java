@@ -1,6 +1,4 @@
-import java.awt.Frame;
 import javax.swing.JFrame;
-import javax.swing.Jframe;
 
 public class App {
     public static void main(String[] args) {
@@ -21,6 +19,7 @@ public class App {
         frame.add(pacmanGame);
         frame.pack();
         frame.setVisible(true);
+        pacmanGame.requestFocus();
 
     }
     
